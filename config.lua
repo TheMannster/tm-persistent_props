@@ -1,5 +1,10 @@
 Config = {}
 
+-- Light-debug overlay: red source marker + cyan cone wireframe on every
+-- spawned light. Tweak light offsets / cones with this on, then turn it back
+-- off in production.
+Config.Debug = true
+
 -- =============================================================================
 -- 1. GENERAL
 -- =============================================================================
@@ -11,10 +16,11 @@ Config.Commands = {
 -- Server console boot banner. Errors and warnings still print regardless.
 Config.ShowStartupBanner = true
 
--- Light-debug overlay: red source marker + cyan cone wireframe on every
--- spawned light. Tweak light offsets / cones with this on, then turn it back
--- off in production.
-Config.Debug = true
+-- Checks GitHub for a newer release on boot and prints the changelog if one
+-- exists.
+Config.VersionCheck = {
+    Enabled = true,
+}
 
 -- =============================================================================
 -- 2. PERMISSIONS
