@@ -311,6 +311,14 @@ without breaking the rest of the script, so it's not in here. Keep
 
 ---
 
+## License
+
+This resource is **proprietary**. Copyright (c) 2026 TheMannster — all rights
+reserved. Summary: you may **run and adapt it for your own FiveM server**;
+you may **not** redistribute copies or forks as substitute downloads without
+authorization. Commercial sale or resale requires explicit written agreement
+from the copyright holder. See [`LICENSE`](LICENSE) for full terms.
+
 ## Credits
 
 Built by **themannster** as part of the `tm-*` resource family.

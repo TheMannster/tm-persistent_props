@@ -4,6 +4,8 @@ game 'gta5'
 name 'tm-persistent_props'
 description 'Persistent player-placeable prop system (DB backed)'
 author 'themannster'
+license 'Proprietary (see LICENSE)'
+repository 'https://github.com/TheMannster/tm-persistent_props'
 version '1.0.0'
 
 dependencies {
